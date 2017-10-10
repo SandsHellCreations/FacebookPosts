@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51D7F82A6BDC3D2E8BB9FECF /* Pods_FBPageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF250CF1E5CCB645330C208 /* Pods_FBPageTests.framework */; };
+		59B14B4A7897897CA99C916F /* Pods_FBPageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E751B6DAB62184A335A9327E /* Pods_FBPageUITests.framework */; };
+		9D05EC431F8B85960093F83C /* FBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05EC421F8B85960093F83C /* FBModel.swift */; };
+		9D05EC451F8B86A80093F83C /* SwiftyJSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05EC441F8B86A80093F83C /* SwiftyJSONHelper.swift */; };
+		9DA7B0B71F87522E00ED1280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7B0B61F87522E00ED1280 /* AppDelegate.swift */; };
+		9DA7B0B91F87522E00ED1280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7B0B81F87522E00ED1280 /* ViewController.swift */; };
+		9DA7B0BC1F87522E00ED1280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7B0BA1F87522E00ED1280 /* Main.storyboard */; };
+		9DA7B0BE1F87522E00ED1280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7B0BD1F87522E00ED1280 /* Assets.xcassets */; };
+		9DA7B0C11F87522E00ED1280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7B0BF1F87522E00ED1280 /* LaunchScreen.storyboard */; };
+		9DA7B0CC1F87522E00ED1280 /* FBPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7B0CB1F87522E00ED1280 /* FBPageTests.swift */; };
+		9DA7B0D71F87522E00ED1280 /* FBPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7B0D61F87522E00ED1280 /* FBPageUITests.swift */; };
+		9E0A847969E041DD5C9141C7 /* Pods_FBPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D23EDF4F041140A2AE8638 /* Pods_FBPage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DA7B0C81F87522E00ED1280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DA7B0AB1F87522E00ED1280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DA7B0B21F87522E00ED1280;
+			remoteInfo = FBPage;
+		};
+		9DA7B0D31F87522E00ED1280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DA7B0AB1F87522E00ED1280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DA7B0B21F87522E00ED1280;
+			remoteInfo = FBPage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19AB45FE5B9E514F4BD50A3A /* Pods-FBPageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBPageUITests/Pods-FBPageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		55256D96566DF645479D54C7 /* Pods-FBPageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBPageTests/Pods-FBPageTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D05EC421F8B85960093F83C /* FBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBModel.swift; sourceTree = "<group>"; };
+		9D05EC441F8B86A80093F83C /* SwiftyJSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSONHelper.swift; sourceTree = "<group>"; };
+		9DA7B0B31F87522E00ED1280 /* FBPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA7B0B61F87522E00ED1280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DA7B0B81F87522E00ED1280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DA7B0BB1F87522E00ED1280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DA7B0BD1F87522E00ED1280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DA7B0C01F87522E00ED1280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DA7B0C21F87522E00ED1280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA7B0C71F87522E00ED1280 /* FBPageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBPageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA7B0CB1F87522E00ED1280 /* FBPageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPageTests.swift; sourceTree = "<group>"; };
+		9DA7B0CD1F87522E00ED1280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA7B0D21F87522E00ED1280 /* FBPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA7B0D61F87522E00ED1280 /* FBPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPageUITests.swift; sourceTree = "<group>"; };
+		9DA7B0D81F87522E00ED1280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81379161C570232F39391F7 /* Pods-FBPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPage.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBPage/Pods-FBPage.release.xcconfig"; sourceTree = "<group>"; };
+		E0D23EDF4F041140A2AE8638 /* Pods_FBPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E751B6DAB62184A335A9327E /* Pods_FBPageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBPageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79BE900D0B3C8A02670C3B3 /* Pods-FBPageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBPageUITests/Pods-FBPageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9E95979A899E669A07DE08C /* Pods-FBPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBPage/Pods-FBPage.debug.xcconfig"; sourceTree = "<group>"; };
+		EC0E2EDA65240CC60C447A8F /* Pods-FBPageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBPageTests/Pods-FBPageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFF250CF1E5CCB645330C208 /* Pods_FBPageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBPageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA7B0B01F87522E00ED1280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0A847969E041DD5C9141C7 /* Pods_FBPage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA7B0C41F87522E00ED1280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D7F82A6BDC3D2E8BB9FECF /* Pods_FBPageTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA7B0CF1F87522E00ED1280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B14B4A7897897CA99C916F /* Pods_FBPageUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0896FDDE9327A1C09DC7E44A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9E95979A899E669A07DE08C /* Pods-FBPage.debug.xcconfig */,
+				C81379161C570232F39391F7 /* Pods-FBPage.release.xcconfig */,
+				EC0E2EDA65240CC60C447A8F /* Pods-FBPageTests.debug.xcconfig */,
+				55256D96566DF645479D54C7 /* Pods-FBPageTests.release.xcconfig */,
+				E79BE900D0B3C8A02670C3B3 /* Pods-FBPageUITests.debug.xcconfig */,
+				19AB45FE5B9E514F4BD50A3A /* Pods-FBPageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81CD897B58173787A6A12FD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0D23EDF4F041140A2AE8638 /* Pods_FBPage.framework */,
+				EFF250CF1E5CCB645330C208 /* Pods_FBPageTests.framework */,
+				E751B6DAB62184A335A9327E /* Pods_FBPageUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DA7B0AA1F87522E00ED1280 = {
+			isa = PBXGroup;
+			children = (
+				9DA7B0B51F87522E00ED1280 /* FBPage */,
+				9DA7B0CA1F87522E00ED1280 /* FBPageTests */,
+				9DA7B0D51F87522E00ED1280 /* FBPageUITests */,
+				9DA7B0B41F87522E00ED1280 /* Products */,
+				0896FDDE9327A1C09DC7E44A /* Pods */,
+				81CD897B58173787A6A12FD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA7B0B41F87522E00ED1280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA7B0B31F87522E00ED1280 /* FBPage.app */,
+				9DA7B0C71F87522E00ED1280 /* FBPageTests.xctest */,
+				9DA7B0D21F87522E00ED1280 /* FBPageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA7B0B51F87522E00ED1280 /* FBPage */ = {
+			isa = PBXGroup;
+			children = (
+				9DA7B0B61F87522E00ED1280 /* AppDelegate.swift */,
+				9DA7B0B81F87522E00ED1280 /* ViewController.swift */,
+				9DA7B0BA1F87522E00ED1280 /* Main.storyboard */,
+				9DA7B0BD1F87522E00ED1280 /* Assets.xcassets */,
+				9DA7B0BF1F87522E00ED1280 /* LaunchScreen.storyboard */,
+				9DA7B0C21F87522E00ED1280 /* Info.plist */,
+				9D05EC421F8B85960093F83C /* FBModel.swift */,
+				9D05EC441F8B86A80093F83C /* SwiftyJSONHelper.swift */,
+			);
+			path = FBPage;
+			sourceTree = "<group>";
+		};
+		9DA7B0CA1F87522E00ED1280 /* FBPageTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DA7B0CB1F87522E00ED1280 /* FBPageTests.swift */,
+				9DA7B0CD1F87522E00ED1280 /* Info.plist */,
+			);
+			path = FBPageTests;
+			sourceTree = "<group>";
+		};
+		9DA7B0D51F87522E00ED1280 /* FBPageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DA7B0D61F87522E00ED1280 /* FBPageUITests.swift */,
+				9DA7B0D81F87522E00ED1280 /* Info.plist */,
+			);
+			path = FBPageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA7B0B21F87522E00ED1280 /* FBPage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA7B0DB1F87522E00ED1280 /* Build configuration list for PBXNativeTarget "FBPage" */;
+			buildPhases = (
+				136E4A661261B4CCC29CE49B /* [CP] Check Pods Manifest.lock */,
+				9DA7B0AF1F87522E00ED1280 /* Sources */,
+				9DA7B0B01F87522E00ED1280 /* Frameworks */,
+				9DA7B0B11F87522E00ED1280 /* Resources */,
+				ED4A2FB6F3F9ACBBA240D175 /* [CP] Embed Pods Frameworks */,
+				C4C5B169DE8A8C2DFDBB45FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBPage;
+			productName = FBPage;
+			productReference = 9DA7B0B31F87522E00ED1280 /* FBPage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DA7B0C61F87522E00ED1280 /* FBPageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA7B0DE1F87522E00ED1280 /* Build configuration list for PBXNativeTarget "FBPageTests" */;
+			buildPhases = (
+				21F5CAF72C414F5A35080651 /* [CP] Check Pods Manifest.lock */,
+				9DA7B0C31F87522E00ED1280 /* Sources */,
+				9DA7B0C41F87522E00ED1280 /* Frameworks */,
+				9DA7B0C51F87522E00ED1280 /* Resources */,
+				2C6E73F1FA7943B4BB0FDF5A /* [CP] Embed Pods Frameworks */,
+				BED8B7DA61F5F4F00B637603 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DA7B0C91F87522E00ED1280 /* PBXTargetDependency */,
+			);
+			name = FBPageTests;
+			productName = FBPageTests;
+			productReference = 9DA7B0C71F87522E00ED1280 /* FBPageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DA7B0D11F87522E00ED1280 /* FBPageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA7B0E11F87522E00ED1280 /* Build configuration list for PBXNativeTarget "FBPageUITests" */;
+			buildPhases = (
+				767C5CE25260F7FA1A1A33C2 /* [CP] Check Pods Manifest.lock */,
+				9DA7B0CE1F87522E00ED1280 /* Sources */,
+				9DA7B0CF1F87522E00ED1280 /* Frameworks */,
+				9DA7B0D01F87522E00ED1280 /* Resources */,
+				4663FD8D9F0AD6AEDC06E1ED /* [CP] Embed Pods Frameworks */,
+				01525E669DA4EB8D36CD809E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DA7B0D41F87522E00ED1280 /* PBXTargetDependency */,
+			);
+			name = FBPageUITests;
+			productName = FBPageUITests;
+			productReference = 9DA7B0D21F87522E00ED1280 /* FBPageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA7B0AB1F87522E00ED1280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SandsHellCreations;
+				TargetAttributes = {
+					9DA7B0B21F87522E00ED1280 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					9DA7B0C61F87522E00ED1280 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DA7B0B21F87522E00ED1280;
+					};
+					9DA7B0D11F87522E00ED1280 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DA7B0B21F87522E00ED1280;
+					};
+				};
+			};
+			buildConfigurationList = 9DA7B0AE1F87522E00ED1280 /* Build configuration list for PBXProject "FBPage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DA7B0AA1F87522E00ED1280;
+			productRefGroup = 9DA7B0B41F87522E00ED1280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA7B0B21F87522E00ED1280 /* FBPage */,
+				9DA7B0C61F87522E00ED1280 /* FBPageTests */,
+				9DA7B0D11F87522E00ED1280 /* FBPageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA7B0B11F87522E00ED1280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA7B0C11F87522E00ED1280 /* LaunchScreen.storyboard in Resources */,
+				9DA7B0BE1F87522E00ED1280 /* Assets.xcassets in Resources */,
+				9DA7B0BC1F87522E00ED1280 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA7B0C51F87522E00ED1280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA7B0D01F87522E00ED1280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01525E669DA4EB8D36CD809E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBPageUITests/Pods-FBPageUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		136E4A661261B4CCC29CE49B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBPage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21F5CAF72C414F5A35080651 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBPageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C6E73F1FA7943B4BB0FDF5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBPageTests/Pods-FBPageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4663FD8D9F0AD6AEDC06E1ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBPageUITests/Pods-FBPageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		767C5CE25260F7FA1A1A33C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBPageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BED8B7DA61F5F4F00B637603 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBPageTests/Pods-FBPageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4C5B169DE8A8C2DFDBB45FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBPage/Pods-FBPage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED4A2FB6F3F9ACBBA240D175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FBPage/Pods-FBPage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBPage/Pods-FBPage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA7B0AF1F87522E00ED1280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA7B0B91F87522E00ED1280 /* ViewController.swift in Sources */,
+				9D05EC431F8B85960093F83C /* FBModel.swift in Sources */,
+				9D05EC451F8B86A80093F83C /* SwiftyJSONHelper.swift in Sources */,
+				9DA7B0B71F87522E00ED1280 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA7B0C31F87522E00ED1280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA7B0CC1F87522E00ED1280 /* FBPageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA7B0CE1F87522E00ED1280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA7B0D71F87522E00ED1280 /* FBPageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DA7B0C91F87522E00ED1280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DA7B0B21F87522E00ED1280 /* FBPage */;
+			targetProxy = 9DA7B0C81F87522E00ED1280 /* PBXContainerItemProxy */;
+		};
+		9DA7B0D41F87522E00ED1280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DA7B0B21F87522E00ED1280 /* FBPage */;
+			targetProxy = 9DA7B0D31F87522E00ED1280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DA7B0BA1F87522E00ED1280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA7B0BB1F87522E00ED1280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DA7B0BF1F87522E00ED1280 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA7B0C01F87522E00ED1280 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA7B0D91F87522E00ED1280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DA7B0DA1F87522E00ED1280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA7B0DC1F87522E00ED1280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E95979A899E669A07DE08C /* Pods-FBPage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBPage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sandshellcreations.FBPage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9DA7B0DD1F87522E00ED1280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81379161C570232F39391F7 /* Pods-FBPage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBPage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sandshellcreations.FBPage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9DA7B0DF1F87522E00ED1280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0E2EDA65240CC60C447A8F /* Pods-FBPageTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBPageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sandshellcreations.FBPageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBPage.app/FBPage";
+			};
+			name = Debug;
+		};
+		9DA7B0E01F87522E00ED1280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55256D96566DF645479D54C7 /* Pods-FBPageTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBPageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sandshellcreations.FBPageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBPage.app/FBPage";
+			};
+			name = Release;
+		};
+		9DA7B0E21F87522E00ED1280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79BE900D0B3C8A02670C3B3 /* Pods-FBPageUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FBPageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sandshellcreations.FBPageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FBPage;
+			};
+			name = Debug;
+		};
+		9DA7B0E31F87522E00ED1280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AB45FE5B9E514F4BD50A3A /* Pods-FBPageUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FBPageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sandshellcreations.FBPageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FBPage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA7B0AE1F87522E00ED1280 /* Build configuration list for PBXProject "FBPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA7B0D91F87522E00ED1280 /* Debug */,
+				9DA7B0DA1F87522E00ED1280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA7B0DB1F87522E00ED1280 /* Build configuration list for PBXNativeTarget "FBPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA7B0DC1F87522E00ED1280 /* Debug */,
+				9DA7B0DD1F87522E00ED1280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA7B0DE1F87522E00ED1280 /* Build configuration list for PBXNativeTarget "FBPageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA7B0DF1F87522E00ED1280 /* Debug */,
+				9DA7B0E01F87522E00ED1280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA7B0E11F87522E00ED1280 /* Build configuration list for PBXNativeTarget "FBPageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA7B0E21F87522E00ED1280 /* Debug */,
+				9DA7B0E31F87522E00ED1280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DA7B0AB1F87522E00ED1280 /* Project object */;
+}
